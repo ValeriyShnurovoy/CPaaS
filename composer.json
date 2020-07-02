@@ -1,0 +1,13 @@
+{
+  "type": "project",
+  "description": "Native PHP test for CPaaS",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cpaas\\": "cpaas/"
+    }
+  }
+}
